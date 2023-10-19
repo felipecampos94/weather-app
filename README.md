@@ -4,7 +4,7 @@ Weather App é um aplicativo desenvolvido com [Angular CLI](https://github.com/a
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Execute `ng serve --open` para rodar o servidor. Abrirá uma página em seu navegador no endereço `http://localhost:4200/`. O aplicativo será recarregado automaticamente se você alterar algum dos arquivos de origem.
 
 
 ## Build
