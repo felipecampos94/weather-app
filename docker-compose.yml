@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  weather-app:
+    build:
+      dockerfile: Dockerfile
+    container_name: weather-app
+    restart: on-failure
+
+    ports:
+      - "4200:80"
+    expose:
+      - 4200 # Mapeia a porta do container para a porta do host, ajuste conforme necessário
+
